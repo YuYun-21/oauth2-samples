@@ -41,33 +41,67 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     AuthorizationServerTokenServices tokenServices() {
         DefaultTokenServices services = new DefaultTokenServices();
         services.setClientDetailsService(clientDetailsService);
+        // Token 是否支持刷新
         services.setSupportRefreshToken(true);
+        // Token 的存储位置
         services.setTokenStore(tokenStore);
+        // Token 的有效期
         services.setAccessTokenValiditySeconds(60 * 60 * 2);
+        // 刷新 Token 的有效期
         services.setRefreshTokenValiditySeconds(60 * 60 * 24 * 3);
         return services;
     }
 
+    /**
+     * 配置令牌端点的安全约束
+     * 资源服务器收到Token之后，需要去校验Token的合法性，就会访问这个端点
+     *
+     * @param security 安全功能的Fluent配置程序
+     * @throws Exception
+     */
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
+        // checkTokenAccess 一个Token校验的端点
+        // permitAll() 设置为可以直接访问
         security.checkTokenAccess("permitAll()")
                 .allowFormAuthenticationForClients();
     }
 
+    /**
+     * 配置校验客户端
+     *
+     * @param clients 客户端详细信息配置器
+     * @throws Exception
+     */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
+                // 客户端的id
                 .withClient("javaboy")
+                // secret
                 .secret(new BCryptPasswordEncoder().encode("123"))
+                // 资源id
                 .resourceIds("res1")
-                .authorizedGrantTypes("authorization_code","refresh_token")
+                // 授权类型
+                .authorizedGrantTypes("authorization_code", "refresh_token")
+                // 授权范围
                 .scopes("all")
+                // 重定向uri
                 .redirectUris("http://localhost:8082/index.html");
     }
 
+    /**
+     * 配置令牌的访问端点和令牌服务
+     * 授权码是用来获取令牌的，使用一次就失效，令牌则是用来获取资源的
+     *
+     * @param endpoints 端点配置器
+     * @throws Exception
+     */
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+        // 配置授权码的存储
         endpoints.authorizationCodeServices(authorizationCodeServices())
+                // 配置令牌(access_token)的存储位置
                 .tokenServices(tokenServices());
     }
     @Bean

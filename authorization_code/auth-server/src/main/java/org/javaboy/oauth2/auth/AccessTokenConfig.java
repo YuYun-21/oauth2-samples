@@ -16,8 +16,14 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
  */
 @Configuration
 public class AccessTokenConfig {
+    /**
+     * 设置生成的Token存储方式
+     *
+     * @return
+     */
     @Bean
     TokenStore tokenStore() {
+        // 将Token存入内从中
         return new InMemoryTokenStore();
     }
 }

@@ -20,6 +20,14 @@ import org.springframework.security.oauth2.provider.token.RemoteTokenServices;
 @Configuration
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
+
+    /**
+     * 远程令牌服务
+     * 资源服务器和授权服务器是分开的，才需要配置
+     * 当用户来资源服务器请求资源时，会携带上一个 access_token，通过这里的配置，就能够校验出 token 是否正确
+     *
+     * @return
+     */
     @Bean
     RemoteTokenServices tokenServices() {
         RemoteTokenServices services = new RemoteTokenServices();
@@ -28,11 +36,24 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
         services.setClientSecret("123");
         return services;
     }
+
+    /**
+     * 资源服务器配置
+     *
+     * @param resources 资源服务器配置
+     * @throws Exception
+     */
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
         resources.resourceId("res1").tokenServices(tokenServices());
     }
 
+    /**
+     * 资源拦截规则
+     *
+     * @param http 当前http筛选器配置
+     * @throws Exception
+     */
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
