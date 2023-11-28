@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="869d9b89-fff0-4a3f-a64e-1c9293742f3e" name="Changes" comment="修改readme">
+      <change beforePath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/auth-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/TokenTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/client-app/src/main/java/org/javaboy/oauth2/client/TokenTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authorization_code_redis/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/authorization_code_redis/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_login/src/main/java/org/javaboy/github_login/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/github_login/src/main/java/org/javaboy/github_login/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github_login/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github_login/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/AccessTokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/CustomAdditionalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/CustomAdditionalInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/auth-server/src/main/java/org/javaboy/oauth2/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/auth-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/auth-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/client-app/src/main/java/org/javaboy/oauth2/client/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/client-app/src/main/java/org/javaboy/oauth2/client/TokenTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/client-app/src/main/java/org/javaboy/oauth2/client/TokenTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/AccessTokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/AccessTokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/jwt/user-server/src/main/java/org/javaboy/oauth2/res/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/config/AuthServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/config/AuthServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/auth-server/src/main/java/org/javaboy/authserver/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/client1/src/main/java/org/javaboy/client1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/client1/src/main/java/org/javaboy/client1/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/client1/src/main/java/org/javaboy/client1/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/client1/src/main/java/org/javaboy/client1/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/client1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/client1/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/client2/src/main/java/org/javaboy/client2/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/client2/src/main/java/org/javaboy/client2/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauth2-sso/client2/src/main/java/org/javaboy/client2/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/oauth2-sso/client2/src/main/java/org/javaboy/client2/config/SecurityConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YZJtZ4dBKnwBNNtkTsrEylimTU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ApiPost:METDOD_SEND_RECORD:client1": "{\"/hello\":[{\"url\":\"http://localhost:1112/hello\",\"header\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"query\":[{\"is_checked\":1,\"type\":\"Text\",\"value\":\"\"}],\"requestBody\":\"\",\"responseBody\":\"There was an error accessing to URL: http://localhost:1112/hello\\n\\nConnectException: Connection refused\",\"selectedItem\":\"GET\",\"time\":{\"date\":{\"year\":2023,\"month\":11,\"day\":28},\"time\":{\"hour\":10,\"minute\":51,\"second\":53,\"nano\":513569000}}}]}",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/wizdom-lcr/yuyun/project/oauth2-samples",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "cn.apipost.upload.ApiPostSettingsConfiguration",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SecurityConfig">
+    <configuration name="SecurityConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.javaboy.oauth2.auth.SecurityConfig" />
+      <module name="auth-server (2)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.javaboy.oauth2.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code_redis" nameIsGenerated="true">
+      <module name="auth-server (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="client_credentials" nameIsGenerated="true">
+      <module name="auth-server (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="implicit" nameIsGenerated="true">
+      <module name="auth-server (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="jwt" nameIsGenerated="true">
+      <module name="auth-server (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="password" nameIsGenerated="true">
+      <module name="auth-server (7)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code" nameIsGenerated="true">
+      <module name="auth-server (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="oauth-sso" nameIsGenerated="true">
+      <module name="auth-server (6) (org.javaboy)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.authserver.AuthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="oauth-sso" nameIsGenerated="true">
+      <module name="client1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.client1.Client1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="oauth-sso" nameIsGenerated="true">
+      <module name="client2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.client2.Client2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code_redis" nameIsGenerated="true">
+      <module name="client-app (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="client_credentials" nameIsGenerated="true">
+      <module name="client-app (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="implicit" nameIsGenerated="true">
+      <module name="client-app (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="jwt" nameIsGenerated="true">
+      <module name="client-app (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="password" nameIsGenerated="true">
+      <module name="client-app (6)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code" nameIsGenerated="true">
+      <module name="client-app (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GithubLoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="github_login" nameIsGenerated="true">
+      <module name="github_login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.github_login.GithubLoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code_redis" nameIsGenerated="true">
+      <module name="user-server (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="client_credentials" nameIsGenerated="true">
+      <module name="user-server (3)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="implicit" nameIsGenerated="true">
+      <module name="user-server (4)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="jwt" nameIsGenerated="true">
+      <module name="user-server (5)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="password" nameIsGenerated="true">
+      <module name="user-server (6)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="authoriztion_code" nameIsGenerated="true">
+      <module name="user-server (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.javaboy.oauth2.res.ResApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SecurityConfig" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.ResApplication" />
+      <item itemvalue="Spring Boot.AuthApplication (1)" />
+      <item itemvalue="Spring Boot.ClientApplication (1)" />
+      <item itemvalue="Spring Boot.ResApplication (1)" />
+      <item itemvalue="Spring Boot.AuthApplication (2)" />
+      <item itemvalue="Spring Boot.ClientApplication (2)" />
+      <item itemvalue="Spring Boot.ResApplication (2)" />
+      <item itemvalue="Spring Boot.GithubLoginApplication" />
+      <item itemvalue="Spring Boot.AuthApplication (3)" />
+      <item itemvalue="Spring Boot.ClientApplication (3)" />
+      <item itemvalue="Spring Boot.ResApplication (3)" />
+      <item itemvalue="Spring Boot.AuthApplication (4)" />
+      <item itemvalue="Spring Boot.ClientApplication (4)" />
+      <item itemvalue="Spring Boot.ResApplication (4)" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+      <item itemvalue="Spring Boot.Client1Application" />
+      <item itemvalue="Spring Boot.Client2Application" />
+      <item itemvalue="Spring Boot.AuthApplication (5)" />
+      <item itemvalue="Spring Boot.ClientApplication (5)" />
+      <item itemvalue="Spring Boot.ResApplication (5)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SecurityConfig" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="869d9b89-fff0-4a3f-a64e-1c9293742f3e" name="Changes" comment="" />
+      <created>1700727385184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700727385184</updated>
+      <workItem from="1700727386404" duration="6920000" />
+      <workItem from="1701050468363" duration="1037000" />
+      <workItem from="1701051798991" duration="91000" />
+      <workItem from="1701051897471" duration="54000" />
+      <workItem from="1701051976947" duration="16295000" />
+      <workItem from="1701137807164" duration="5260000" />
+    </task>
+    <task id="LOCAL-00001" summary="环境初始化；删除多余配置">
+      <option name="closed" value="true" />
+      <created>1700816519668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816519668</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改readme">
+      <option name="closed" value="true" />
+      <created>1700816633198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816633198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="环境初始化；删除多余配置" />
+    <MESSAGE value="修改readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改readme" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/github_login/src/main/java/org/javaboy/github_login/IndexController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
