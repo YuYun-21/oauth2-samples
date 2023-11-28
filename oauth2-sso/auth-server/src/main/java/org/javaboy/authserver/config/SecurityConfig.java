@@ -11,26 +11,41 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * @作者 江南一点雨
- * @微信公众号 江南一点雨
- * @网站 http://www.itboyhub.com
- * @国际站 http://www.javaboy.org
- * @微信 a_java_boy
- * @GitHub https://github.com/lenve
- * @Gitee https://gitee.com/lenve
+ * 因为资源服务器和授权服务器在一起 使用 @Order 注解来提升 Spring Security 配置的优先级
+ *
+ * @author hyh
  */
 @Configuration
 @Order(1)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    /**
+     * 配置加密解密工具
+     *
+     * @return
+     */
     @Bean
     PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
+    /**
+     * 静态资源免校验
+     *
+     * @param web
+     * @throws Exception
+     */
     @Override
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/login.html", "/css/**", "/js/**", "/images/**");
     }
 
+    /**
+     * 接口免校验
+     *
+     * @param http
+     * @throws Exception
+     */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.requestMatchers()
@@ -40,7 +55,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests().anyRequest().authenticated()
                 .and()
                 .formLogin()
+                // 登录页面
                 .loginPage("/login.html")
+                // 登录接口
                 .loginProcessingUrl("/login")
                 .permitAll()
                 .and()

@@ -24,15 +24,6 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 import javax.sql.DataSource;
 import java.lang.ref.SoftReference;
 
-/**
- * @作者 江南一点雨
- * @微信公众号 江南一点雨
- * @网站 http://www.itboyhub.com
- * @国际站 http://www.javaboy.org
- * @微信 a_java_boy
- * @GitHub https://github.com/lenve
- * @Gitee https://gitee.com/lenve
- */
 @EnableAuthorizationServer
 @Configuration
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
@@ -40,6 +31,13 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     TokenStore tokenStore;
     @Autowired
     DataSource dataSource;
+
+    /**
+     * 自定义ClientDetailsService
+     * 将定义的客户端的关键信息存入数据库
+     *
+     * @return
+     */
     @Bean
     ClientDetailsService clientDetailsService() {
         return new JdbcClientDetailsService(dataSource);
@@ -60,6 +58,11 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
                 .allowFormAuthenticationForClients();
     }
 
+    /**
+     * 配置自定义的ClientDetailsService
+     *
+     * @return
+     */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.withClientDetails(clientDetailsService());
@@ -70,6 +73,7 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
         endpoints.authorizationCodeServices(authorizationCodeServices())
                 .tokenServices(tokenServices());
     }
+
     @Bean
     AuthorizationCodeServices authorizationCodeServices() {
         return new InMemoryAuthorizationCodeServices();

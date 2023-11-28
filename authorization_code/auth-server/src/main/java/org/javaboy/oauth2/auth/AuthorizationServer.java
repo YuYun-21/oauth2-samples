@@ -20,15 +20,6 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 
 import java.lang.ref.SoftReference;
 
-/**
- * @作者 江南一点雨
- * @微信公众号 江南一点雨
- * @网站 http://www.itboyhub.com
- * @国际站 http://www.javaboy.org
- * @微信 a_java_boy
- * @GitHub https://github.com/lenve
- * @Gitee https://gitee.com/lenve
- */
 @EnableAuthorizationServer
 @Configuration
 public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
@@ -86,6 +77,8 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
                 .authorizedGrantTypes("authorization_code", "refresh_token")
                 // 授权范围
                 .scopes("all")
+                // 自动同意访问
+                //.autoApprove()
                 // 重定向uri
                 .redirectUris("http://localhost:8082/index.html");
     }
